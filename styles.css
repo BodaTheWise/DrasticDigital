@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#game-container {
+    position: relative;
+    width: 640px;
+    height: 480px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+#flamingo, .coin, .enemy-coin {
+    position: absolute;
+}
+
+#flamingo {
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    bottom: 20px;
+}
+
+.coin {
+    width: 20px;
+    height: 20px;
+    background-color: gold;
+}
+
+.enemy-coin {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
